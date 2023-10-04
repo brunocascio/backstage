@@ -1,5 +1,15 @@
 # @backstage/plugin-kubernetes-react
 
+## 0.1.0-next.1
+
+### Patch Changes
+
+- 5dac12e435: The kubernetes APIs invokes Authentication Strategies when Backstage-Kubernetes-Authorization-X-X headers are provided, this enable the possibility to invoke strategies that executes additional steps to get a kubernetes token like on pinniped or custom strategies
+- Updated dependencies
+  - @backstage/plugin-kubernetes-common@0.7.0-next.1
+  - @backstage/core-components@0.13.6-next.1
+  - @backstage/core-plugin-api@1.7.0-next.0
+
 ## 0.1.0-next.0
 
 ### Minor Changes

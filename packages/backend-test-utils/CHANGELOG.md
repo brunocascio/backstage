@@ -1,5 +1,18 @@
 # @backstage/backend-test-utils
 
+## 0.2.6-next.2
+
+### Patch Changes
+
+- a250ad775f: Added `createMockDirectory()` to help out with file system mocking in tests.
+- 74491c9602: Updated to import `HostDiscovery` from `@backstage/backend-app-api`.
+- Updated dependencies
+  - @backstage/backend-common@0.19.7-next.2
+  - @backstage/backend-app-api@0.5.5-next.2
+  - @backstage/plugin-auth-node@0.3.2-next.2
+  - @backstage/backend-plugin-api@0.6.5-next.2
+  - @backstage/config@1.1.0
+
 ## 0.2.6-next.1
 
 ### Patch Changes

@@ -1,5 +1,14 @@
 # @backstage/plugin-techdocs-node
 
+## 1.8.2-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/backend-common@0.19.7-next.2
+  - @backstage/config@1.1.0
+  - @backstage/integration-aws-node@0.1.6
+
 ## 1.8.2-next.1
 
 ### Patch Changes

@@ -1,5 +1,15 @@
 # @backstage/plugin-nomad-backend
 
+## 0.1.7-next.2
+
+### Patch Changes
+
+- 6822918c50: Added support for the [new backend system](https://backstage.io/docs/backend-system/)
+- Updated dependencies
+  - @backstage/backend-common@0.19.7-next.2
+  - @backstage/backend-plugin-api@0.6.5-next.2
+  - @backstage/config@1.1.0
+
 ## 0.1.7-next.1
 
 ### Patch Changes
