@@ -88,9 +88,10 @@ export const getLocationForEntity: (
 // @public @deprecated (undocumented)
 export const getMkDocsYml: (
   inputDir: string,
-  siteOptions?:
+  options?:
     | {
         name?: string | undefined;
+        mkdocsConfigFileName?: string | undefined;
       }
     | undefined,
 ) => Promise<{
@@ -102,8 +103,9 @@ export const getMkDocsYml: (
 // @public
 export const getMkdocsYml: (
   inputDir: string,
-  siteOptions?: {
+  options?: {
     name?: string;
+    mkdocsConfigFileName?: string;
   },
 ) => Promise<{
   path: string;
